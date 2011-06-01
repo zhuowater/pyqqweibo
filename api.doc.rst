@@ -34,7 +34,7 @@ Auth 教程
 
 ::
 
-  api = API(a)
+  api = API(auth)
   # test
   me = api.user.info()
   print me.name, me.nick, me.location
